@@ -1,0 +1,93 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 4fr));
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+article {
+  border: 1px white solid;
+  background-color: rgb(249, 244, 244);
+  margin: 10px;
+  border-bottom: 1px black solid;
+  padding-top: 2rem;
+  border-top: 1px black solid;
+}
+
+.valgt {
+  background-color: rgb(219, 10, 10);
+}
+nav {
+  text-align: center;
+}
+header {
+  background-color: orange;
+  padding-bottom: 3rem;
+}
+footer {
+  background-color: orange;
+  display: grid;
+  text-align: center;
+  border-bottom: 1px black solid;
+  border-top: 1px black solid;
+}
+h2 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+  margin-top: -10px;
+}
+h1 {
+  font-family: Verdana, sans-serif Impact, "Arial Narrow Bold", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  background-color: orange;
+  color: rgb(212, 10, 10);
+  border-bottom: 1px black solid;
+  margin-top: 1px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+/*************** Style til popop-vinduet ****************/
+#popop {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.625);
+  width: 100vw;
+  height: 100vh;
+}
+#popop article {
+  position: fixed;
+  width: 50%;
+  top: 17%;
+  left: 17%;
+  background-color: white;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+#luk {
+  position: fixed;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+}
+button {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 17px;
+  border-style: hidden;
+  border-bottom: 1px black solid;
+  background-color: orange;
+  border-top: 1px black solid;
+}
